@@ -1,3 +1,2 @@
-import { LibAMain } from 'mylib';
-
+import { LibAMain } from 'mylib/lib/LibA';
 LibAMain();
