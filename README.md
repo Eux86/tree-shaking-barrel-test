@@ -20,7 +20,7 @@ Is the default case in this repository. The `/lib-user/src/index.ts` has the fol
 import { LibAMain } from 'mylib';
 LibAMain();
 ```
-### Expected Result: 
+### Result: 
 A `main.js` bundle containing the `LibA.js` file along with the unused `LibB.js` file.
 
 ## Case 2: tree-shaking working
@@ -29,5 +29,5 @@ Change the content of `/lib-user/src/index.ts` to be as in the following example
 import { LibAMain } from 'mylib/lib/LibA';
 LibAMain();
 ```
-### Expected Result: 
+### Result: 
 A `main.js` bundle containing only the `LibA.js` file.
