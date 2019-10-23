@@ -1,0 +1,15 @@
+{
+  "name": "treeshaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap && lerna run --scope mylib build && lerna run --scope lib-user build "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.18.3"
+  }
+}

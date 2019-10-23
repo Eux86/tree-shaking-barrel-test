@@ -1,0 +1,17 @@
+{
+  "name": "mylib",
+  "sideEffects": false,
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  }
+}
